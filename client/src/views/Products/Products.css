@@ -1,0 +1,191 @@
+.products-page {
+    font-family: 'Inter', sans-serif;
+    color: #2c3e50;
+  }
+  
+  .products-hero {
+    background: linear-gradient(rgba(18, 58, 24, 0.8), rgba(32, 78, 32, 0.8)),
+                url('../../Assets/Images/raisin.avif') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .products-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+  }
+  
+  .product-card {
+    background: #f9fafb;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .product-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #003300;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .product-details {
+    padding: 1.5rem;
+  }
+  
+  .product-name {
+    font-size: 1.8rem;
+    color: #003300;
+    margin-bottom: 1rem;
+  }
+  
+  .product-description {
+    color: #4a684a;
+    margin-bottom: 1rem;
+  }
+  
+  .product-features, .product-uses {
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-features h3, .product-uses h3 {
+    color: #2d502c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-features ul, .product-uses ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #4a684a;
+  }
+  
+  .product-purchase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: -20px;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a7a1f;
+  }
+  
+  .add-to-cart-btn {
+    display: block;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 auto;
+    background-color: #003300;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .why-choose-section {
+    background-color: #f0f9ff;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .why-choose-section h2 {
+    color: #1c7a1a;
+    margin-bottom: 2rem;
+  }
+  
+  .choose-reasons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .reason {
+    max-width: 300px;
+  }
+  
+  .reason-icon {
+    color: #227a1a;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section {
+    text-align: center;
+    background-color: #003300;
+    color: white;
+    padding: 4rem 2rem;
+  }
+  
+  .start-shopping-btn {
+    background-color: white;
+    color: #003300;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 500px) {
+    .product-details {
+      margin-top: -40px;
+    }
+    .product-purchase {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); 
+    }
+
+    .product-price {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5px;
+    }
+    
+    .add-to-cart-btn {
+      margin: 5px auto;
+      margin-bottom: -15px;
+    }
+    
+
+    .products-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .choose-reasons {
+      flex-direction: column;
+    }
+  }

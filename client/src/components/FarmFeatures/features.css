@@ -1,0 +1,75 @@
+/* krushivrund-features.css */
+.farm-features-container {
+    background-color: #ffffff;
+    padding: 4rem 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .farm-features-title {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #003300;
+    margin-bottom: 1rem;
+  }
+  
+  .farm-features-subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+  }
+  
+  .farm-features-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .farm-features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .farm-features-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .farm-feature-card {
+    background-color: #f9fbf9;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .farm-feature-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+  }
+  
+  .farm-feature-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .farm-feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+  }
+  
+  .farm-feature-description {
+    color: #4b5563;
+  }

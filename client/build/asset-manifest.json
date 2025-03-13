@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6b286d2.css",
+    "main.js": "/static/js/main.1403dfdb.js",
+    "static/media/img10.jpg": "/static/media/img10.bc56ca53a37b318b40b9.jpg",
+    "static/media/img9.jpg": "/static/media/img9.40d31b00ce7ecd95dfd8.jpg",
+    "static/media/img1.jpg": "/static/media/img1.f3d317b7c8426cb13fb0.jpg",
+    "static/media/img2.jpg": "/static/media/img2.3f4f45c89202e7b4aa27.jpg",
+    "static/media/foodmartlogo.png": "/static/media/foodmartlogo.02f5c06b386a75003acc.png",
+    "static/media/greps.jpg": "/static/media/greps.8f62aaf064db14a40693.jpg",
+    "static/media/raisin.avif": "/static/media/raisin.a5c9e66eca4d6e5efe35.avif",
+    "static/media/five.avif": "/static/media/five.553e2f355a7015972efd.avif",
+    "static/media/grapes.avif": "/static/media/grapes.61d4750a434535028e8f.avif",
+    "static/media/bar.avif": "/static/media/bar.9dbd930e5079e566d1ff.avif",
+    "static/media/flavoured.avif": "/static/media/flavoured.68ac7c436e961260999b.avif",
+    "index.html": "/index.html",
+    "main.f6b286d2.css.map": "/static/css/main.f6b286d2.css.map",
+    "main.1403dfdb.js.map": "/static/js/main.1403dfdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6b286d2.css",
+    "static/js/main.1403dfdb.js"
+  ]
+}

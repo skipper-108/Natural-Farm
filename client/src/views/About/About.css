@@ -1,0 +1,161 @@
+.about-page {
+    font-family: 'Inter', sans-serif;
+    color: #2c502c;
+  }
+  
+  .about-hero {
+    background: linear-gradient(rgba(18, 58, 24, 0.8), rgba(32, 78, 32, 0.8)), 
+                url('../../Assets/Images/grapes.avif') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .about-hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .about-hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  .our-story-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+  }
+  
+  .story-content h2 {
+    color: #003300;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .story-content p {
+    line-height: 1.8;
+    color: #4a684c;
+  }
+  
+  .values-section {
+    background-color: #e8fae8;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .values-section h2 {
+    color: #003300;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .value-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .value-icon {
+    color: #003300;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .value-card h3 {
+    color: #003300;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .products-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    text-align: center;
+  }
+  
+  .products-section h2 {
+    color: #003300;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .product-card {
+    background-color: #e8fae8;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h3 {
+    color: #003300;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .cta-section {
+    background-color: #003300;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #003300;
+    border: none;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #f1f5f9;
+  }
+  
+  @media (max-width: 768px) {
+    .about-hero-content h1 {
+      font-size: 2.5rem;
+    }
+    
+    .values-grid, 
+    .products-grid {
+      grid-template-columns: 1fr;
+    }
+  }

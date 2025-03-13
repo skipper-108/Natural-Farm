@@ -1,0 +1,148 @@
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  /* Add this to your existing Header.css */
+.nav-link {
+    text-decoration: none;
+    color: #003300;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .active-nav-link {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #003300;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #105f10;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .cta-button {
+    background-color: #003300;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #34a02c;
+  }
+  
+  .mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  /* Add these styles to the existing Header.css */
+
+  
+  .user-account-btn {
+    background-color: #f0f4f8;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-account-btn:hover {
+    background-color: #e6eaf0;
+  }
+  
+  .user-account-container{
+    display: flex;
+    gap: 15px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    .nav-open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+    }
+  
+    .nav-open .nav-link {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #eee;
+    }
+  
+    .mobile-menu-toggle {
+      display: block;
+    }
+  
+    .cta-button {
+      display: none;
+    }
+  }

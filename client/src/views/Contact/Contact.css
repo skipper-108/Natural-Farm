@@ -1,0 +1,92 @@
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f5f0;
+    color: #333333;
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-header h1 {
+    color: #003300;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-section h2, 
+  .business-hours h2, 
+  .social-media h2,
+  .contact-form h2 {
+    color: #003300;
+    border-bottom: 2px solid #003300;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details .detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .detail-item a{
+    text-decoration: none;
+    color: #003300;
+  }
+  .detail-item p{
+    color: #003300;
+  }
+  .contact-details .icon {
+    margin-right: 25px;
+    font-size: 1.2rem;
+    margin-left: -20px;
+  }
+  
+  .social-links {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    color: #003300;
+    transition: color 0.3s ease;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+    }
+  }
